@@ -38,4 +38,9 @@ h3{
     height: 500px;
     margin: 10px;
     border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
