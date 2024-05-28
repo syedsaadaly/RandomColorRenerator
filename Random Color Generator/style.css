@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(color.jpg);
+    display: flex;
+}
+h3{
+    padding: 20px;
+}
+.first button{
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    outline: none;
+}
+.first button:hover{
+    background-color: aquamarine;
+    transition: .3s;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.color-box {
+    width: 150px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 100px;
+}
